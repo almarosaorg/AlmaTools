@@ -107,7 +107,7 @@ public class xmlRepositorio {
                             }
                             totArt += numXvol;
                             numXvol = 1;
-                            //System.out.println(volume.getTextContent() + "   " + numXvol + " Archivo  " + registro);
+                            System.out.println(volume.getTextContent() + "   " + numXvol + " Archivo  " + registro);
                         }
                         if (i == 2) {
                             if (totArt != 0) {
